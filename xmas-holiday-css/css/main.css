@@ -1,0 +1,146 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: myriad-pro, sans-serif;
+    
+    
+}
+
+/***** HEADER ******/
+ .container {
+    width: 850px;
+    height: 564px;
+    background-image: url(../img/freestocks-org.png);
+    background-size: cover;
+}
+
+.logo {
+    padding: 150px 260px 0 260px;
+}
+
+.title {
+    height: 167px;
+    width: 656px;
+    box-sizing: border-box;
+    border: 1px solid #E3DADD;
+    background-color: #E3DADD;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+.container h1 {
+    color: #BD0E37;
+    
+    font-size: 4.5rem;
+    padding: 40px 50px 60px 70px;
+}
+
+/**** INFO ******/
+#info {
+    height: 820px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.text {
+    padding: 30px 100px 20px 100px;
+    
+    font-size: 20px;
+    text-align: center;
+    font-weight: 200;
+    font-size: 35px;
+}
+
+.image {
+    margin: 0 230px 40px 230px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 850px;
+    height: 800px;
+    padding: 20px;
+}
+
+
+/***
+.image-one {
+    padding-right: -60px;
+}
+**/
+.image-one, .image-two {
+    width: 350px;
+    height: 530px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    
+}
+
+.text-one, .text-two {
+    background-color: #BF0B36;
+    margin-top: 0;
+    height: 170px;
+    font-size: 30px;
+    color: #fff;
+    text-align: center; 
+    padding: 20px 30px;
+    width: auto;
+    
+}
+
+
+.text-one span {
+    font-weight: 800;
+}
+
+
+.btn {
+    color: #BF0F36;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 600;
+    display: inline-block;
+    border: 5px solid #BF0F36;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 16px 0 10px 88px;
+    
+}
+.text-two span {
+    font-weight: 800;
+}
+
+/*** SECTION SOCIAL *****/
+#social {
+    background-color: #BF0B36;
+
+    width: 850px;
+    height: 126px;
+}
+#social p {
+    color: #fff;
+    text-align: center;
+    padding-top: 25px;
+}
+#social img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 25%;
+    padding: 10px;
+}
+
+/***** FOOTER ******/
+footer {
+    height: 130px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    text-decoration-line:underline;
+   
+}

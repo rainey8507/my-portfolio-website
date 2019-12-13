@@ -1,0 +1,172 @@
+/***** BASES STYLE ******/
+*{
+    margin: 0 auto;
+    padding: 0;
+    width: 850px;
+    font-family: Arial, sans-serif;
+   
+}
+
+/****** HEADER *******/
+.container {
+    height: 125px;
+    background-color: #EAAF47;
+    margin: auto;
+}
+
+.logo {
+    width: auto;
+    padding: 15px 0 23px 50px;
+}
+.update {
+    text-align: center;
+}
+
+.update h1 {
+    font-family: 'Bebas Neue', cursive;
+    color: #EAAF47;
+    font-size: 5rem;
+    letter-spacing: 9px;
+    margin: 0;
+    padding-top: 12px;
+}
+
+.update p{ 
+    padding-bottom: 20px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.people {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/***** MAIN *****/
+
+#first h1{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    font-size: 3rem;
+    margin: 0;
+    padding: 40px 0 20px 80px;
+    font-weight: normal;
+}
+.section-one, .section-two {
+    width: 330px;
+}
+
+.section-one{
+    float: left;
+    padding-left: 70px;
+}
+
+.section-one h2 {
+    padding-bottom: 24px;
+}
+.section-one p {
+    padding-bottom: 10px;
+}
+.section-one a,
+.section-two a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #eaaf47;
+    width: 180px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+    padding: 10px 0;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.game,
+.dance,
+.college{
+    width: 300px;
+}
+.game {
+    padding-bottom: 60px;
+}
+.dance {
+    padding: 40px 0 90px 0;
+}
+.college {
+    padding: 40px 0 40px 0;
+}
+
+.section-two {
+    float: right;
+    padding-right: 70px;
+}
+
+
+.text-1 h2,
+.text-2 h2,
+.text-3 h2 {
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', sans-serif;
+    padding-bottom: 10px;
+}
+.text-1 p,
+.text-2 p,
+.text-3 p {
+    font-size: 19px;
+    font-weight: normal;
+    line-height: 30px;
+}
+.text-2 p{
+    padding-bottom: 26px;
+}
+.text-3 p {
+    padding-bottom: 26px;
+}
+.text-2 a,
+.text-3 a{
+    padding-top: 20px;
+}
+
+/**** FOOTER ****/
+#social-media {
+    clear: both;
+    width: 850px;
+    height: 130px;
+    background-color: #eaaf47;
+    margin-bottom: 25px;
+    
+}
+
+#social-media h3 { 
+    text-align: center;
+    padding: 40px 0 22px 0;
+    color: #fff;
+}
+#social-media img {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.links  {
+    padding-bottom: 20px;
+    
+}
+ul {
+    display: flex;
+    
+}
+ul a {
+    text-decoration: none;
+    color: black;
+    
+}
+ul li {
+    list-style-type: none;
+    width: auto;
+    display: block;
+    
+}
