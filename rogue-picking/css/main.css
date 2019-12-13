@@ -1,0 +1,189 @@
+/*** abode font font-family: myriad-pro, sans-serif; ***/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/**** GRID ****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+   
+}
+
+.second-width {
+    width: 400px;
+    float: left;
+    height: 209px;
+    border-bottom: 1px solid #878181;
+    border-top: 1px solid #878181;
+}
+
+
+
+/**** HEADER *****/
+header {
+    height: 400px;
+}
+
+header h1 {
+    float: left;
+    text-transform: uppercase;
+}
+
+header img {
+    height: 280px;
+    border-top: 3px solid #77A466;
+    border-bottom: 3px solid #77A466;
+    
+}
+header h1 span {
+    color:#77A466; 
+}
+
+nav {
+    float: right;
+    padding-top: 30px;
+    width: 580px;
+    margin-right: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: #77A466;
+    text-transform: uppercase;
+    padding-left: 20px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+nav ul li a:hover{
+    color: orangered;
+}
+
+/***** ABOUT *****/
+#about h2{
+    text-transform: uppercase;
+    color: #77A466;
+    padding-bottom: 20px;
+    font-size: 20px;
+    padding-top: 20px;
+    margin-left: 300px;
+}
+
+#about p{
+    font-family: myriad-pro, sans-serif;
+    font-size: 18px;
+    padding-bottom: 35px;
+}
+
+/**** WORK ****/
+#work h3 {
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 20px 0 20px 0;
+}
+
+#work ul li {
+    list-style: none;
+}
+
+#work ul li a {
+    
+    color: #77A466;
+    display: inline-block;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+
+#work p{
+    font-family: myriad-pro, sans-serif;
+    padding-right: 30px;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+/**** FOOTER *****/
+footer {
+    height: 80px;
+    
+}
+footer h3 {
+    
+    text-transform: uppercase;
+    margin: 0 400px 0 400px;
+    padding: 31px 0 31px;
+}
+
+footer h3 span {
+    text-transform: lowercase;
+    color: #77A466;
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+}
+
+/**** ABOUT ****/
+
+
+
+.menu {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 20px;
+}
+
+.dish-one {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    border: none;
+}
+
+.dish-two {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+    padding: 10px 0 20px 0;
+    border: none;
+}
+
+.dish-three {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    padding: 10px 0 20px 0;
+    border: none;
+}
+
+.location {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 20px 0 10px 0;
+}
+
+.row {
+    font-family: myriad-pro, sans-serif;
+    font-size: 20px;
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    padding: 20px;
+}
