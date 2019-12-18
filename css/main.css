@@ -48,13 +48,13 @@ header nav ul li a {
     padding: 0 10px;
    
 }
-header nav ul li a:visited {
+header nav ul li a:visited,
+header nav ul li a:link {
     color: black;
 }
-header nav ul li a:hover,
-header nav ul li a:link
+header nav ul li a:hover
 {
-    color: #154fc4;
+    color: #77a466;
 }
 .computer-icon{
     padding-top: 25px;
